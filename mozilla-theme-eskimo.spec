@@ -7,8 +7,8 @@ Version:	1.2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
-Source0:	http://downloads.mozdev.org/themes/themes/%{_realname}%{fver}moz12.xpi
-# Source0-md5:	47aefbdef7ea393f0635587b497756b4
+Source0:	http://downloads.us-east1.mozdev.org/themes/themes/%{_realname}%{fver}moz12.xpi
+# Source0-md5:	4be25feec617c897a28d28aee3423b88
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://themes.mozdev.org/skins/eskimo.html
 Requires(post,postun):	textutils
