@@ -1,8 +1,8 @@
 Summary:	Feel the chill of a sunny winter morning!
 Summary(pl):	Poczuj ch³ód s³onecznego zimowego poranka!
 Name:		mozilla-theme-eskimo
-Version:	1.5
 %define		_realname	eskimo
+Version:	1.5
 %define fver    %(echo %{version} | tr -d .)
 Release:	1
 License:	GPL
@@ -12,11 +12,11 @@ Source0:	http://downloads.mozdev.org/themes/themes/%{_realname}MOZ%{fver}.jar
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://themes.mozdev.org/skins/eskimo.html
 Requires(post,postun):	textutils
-Requires:	mozilla = 5:1.5
+Requires:	mozilla >= 1.5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
 
-%define		_chromedir	%{_libdir}/mozilla/chrome
+%define		_chromedir	%{_datadir}/mozilla/chrome
 
 %description
 Feel the chill of a sunny winter morning!
