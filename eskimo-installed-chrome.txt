@@ -5,3 +5,4 @@ skin,install,url,jar:resource:/chrome/eskimo.jar!/editor/
 skin,install,url,jar:resource:/chrome/eskimo.jar!/messenger/
 skin,install,url,jar:resource:/chrome/eskimo.jar!/navigator/
 skin,install,url,jar:resource:/chrome/eskimo.jar!/forms/
+skin,install,url,jar:resource:/chrome/eskimo.jar!/aim/
