@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://downloads.mozdev.org/themes/%{_realname}1RC3.jar
+# Source0-md5:	326a7376f9d8dd288fd46a162dbc33e0
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://themes.mozdev.org/skins/eskimo.html
 Requires(post,postun):	textutils
