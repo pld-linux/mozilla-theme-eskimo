@@ -31,7 +31,7 @@ Poczuj ch³ód s³onecznego zimowego poranka!
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_chromedir}
 
-install %{SOURCE0} $RPM_BUILD_ROOT%{_chromedir}/%{_realname}.xpi
+install %{SOURCE0} $RPM_BUILD_ROOT%{_chromedir}/%{_realname}.jar
 install %{SOURCE1} $RPM_BUILD_ROOT%{_chromedir}
 
 %clean
@@ -47,5 +47,5 @@ cat %{_chromedir}/*-installed-chrome.txt >%{_chromedir}/installed-chrome.txt
 
 %files
 %defattr(644,root,root,755)
-%{_chromedir}/%{_realname}.xpi
+%{_chromedir}/%{_realname}.jar
 %{_chromedir}/%{_realname}-installed-chrome.txt
