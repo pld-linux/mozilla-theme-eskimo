@@ -1,0 +1,7 @@
+skin,install,url,jar:resource:/chrome/eskimo.jar!/
+skin,install,url,jar:resource:/chrome/eskimo.jar!/global/
+skin,install,url,jar:resource:/chrome/eskimo.jar!/communicator/
+skin,install,url,jar:resource:/chrome/eskimo.jar!/editor/
+skin,install,url,jar:resource:/chrome/eskimo.jar!/messenger/
+skin,install,url,jar:resource:/chrome/eskimo.jar!/navigator/
+skin,install,url,jar:resource:/chrome/eskimo.jar!/forms/
