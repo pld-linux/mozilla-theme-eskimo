@@ -12,7 +12,7 @@ Source0:	http://downloads.mozdev.org/themes/themes/%{_realname}%{fver}moz12.xpi
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://themes.mozdev.org/skins/eskimo.html
 Requires(post,postun):	textutils
-Requires:	mozilla >= 1.0-7
+Requires:	mozilla >= 1.2.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
 
