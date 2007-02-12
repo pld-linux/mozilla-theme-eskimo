@@ -1,5 +1,5 @@
 Summary:	Feel the chill of a sunny winter morning!
-Summary(pl):	Poczuj ch≥Ûd s≥onecznego zimowego poranka!
+Summary(pl.UTF-8):   Poczuj ch≈Ç√≥d s≈Çonecznego zimowego poranka!
 Name:		mozilla-theme-eskimo
 %define		_realname	eskimo
 Version:	1.5
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Feel the chill of a sunny winter morning!
 
-%description -l pl
-Poczuj ch≥Ûd s≥onecznego zimowego poranka!
+%description -l pl.UTF-8
+Poczuj ch≈Ç√≥d s≈Çonecznego zimowego poranka!
 
 %prep
 
