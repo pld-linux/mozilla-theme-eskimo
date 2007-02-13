@@ -1,5 +1,5 @@
 Summary:	Feel the chill of a sunny winter morning!
-Summary(pl.UTF-8):   Poczuj chłód słonecznego zimowego poranka!
+Summary(pl.UTF-8):	Poczuj chłód słonecznego zimowego poranka!
 Name:		mozilla-theme-eskimo
 %define		_realname	eskimo
 Version:	1.5
